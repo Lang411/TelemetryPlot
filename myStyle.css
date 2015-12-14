@@ -1,0 +1,50 @@
+/* This is a CSS style sheet: it adds style to the program output */
+	h1 {
+		color:red;
+		font-family: "Times New Roman", Times, serif;
+        font-size:62px;
+        text-decoration: underline;
+		}
+	
+	z1 {
+		color:red;
+		font-size:100%;
+		}
+	
+.output { font-weight: bold; }           /* Calculated values in bold */
+#graph { border: solid black 1px; }  
+table, th, td {
+    border: 1px solid black;
+    th, td { vertical-align: top;}           /* Don't center table cells */
+  }
+  
+body {
+	/*background-color: lightblue;*/
+	background-image: url("sampleBanner.jpg");
+	background-repeat: no-repeat;
+	background-position: left top; 
+	background-attachment: fixed;
+	}
+
+#filedrag
+{
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em 0;
+	margin: 1em 0;
+	color: #555;
+	border: 2px dashed #555;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#filedrag.hover
+{
+	color: #f00;
+	border-color: #f00;
+	border-style: solid;
+	box-shadow: inset 0 3px 4px #888;
+}
+/*#payment { text-decoration: underline; } / For element with id="payment" */
+/*#graph { border: solid black 1px; }    / Chart has a simple border */
